@@ -50,54 +50,54 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Ernesto Geisel'),
         RespostaModel.certa('João Figueiredo'),
     ]),
-    new QuestaoModel(209, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
-        RespostaModel.errada('Ás'),
-        RespostaModel.errada('Nove'),
-        RespostaModel.errada('Rei'),
-        RespostaModel.certa('Valete'),
-    ]),
-    new QuestaoModel(210, 'O adjetivo "venoso" está relacionado a:', [
-        RespostaModel.errada('Vela'),
-        RespostaModel.errada('Vento'),
-        RespostaModel.errada('Vênia'),
-        RespostaModel.certa('Veia'),
-    ]),
-    new QuestaoModel(211, 'Que nome se dá à purificação por meio da água?', [
-        RespostaModel.errada('Abrupção'),
-        RespostaModel.errada('Abolição'),
-        RespostaModel.errada('Abnegação'),
-        RespostaModel.certa('Ablução'),
-    ]),
-    new QuestaoModel(212, 'Qual montanha se localiza entre a fronteira do Tibet com o Nepal?', [
-        RespostaModel.errada('Monte Branco'),
-        RespostaModel.errada('Monte Fuji'),
-        RespostaModel.errada('Monte Carlo'),
-        RespostaModel.certa('Monte Everest'),
-    ]),
-    new QuestaoModel(213, 'Em que parte do corpo se encontra a epiglote?', [
-        RespostaModel.errada('Estômago'),
-        RespostaModel.errada('Pâncreas'),
-        RespostaModel.errada('Rim'),
-        RespostaModel.certa('Pescoço'),
-    ]),
-    new QuestaoModel(214, 'A compensação por perda é chamada de...', [
-        RespostaModel.errada('Déficit'),
-        RespostaModel.errada('Indexação'),
-        RespostaModel.errada('Indébito'),
-        RespostaModel.certa('Indenização'),
-    ]),
-    new QuestaoModel(215, 'Que personagem do folclore brasileiro tem uma perna só?', [
-        RespostaModel.errada('Cuca'),
-        RespostaModel.errada('Curupira'),
-        RespostaModel.errada('Boitatá'),
-        RespostaModel.certa('Saci-pererê'),
-    ]),
-    new QuestaoModel(216, 'Quem é o "patrono" do Exército Brasileiro?', [
-        RespostaModel.errada('Marechal Deodoro'),
-        RespostaModel.errada('Barão de Mauá'),
-        RespostaModel.errada('Marquês de Pombal'),
-        RespostaModel.certa('Duque de Caxias'),
-    ]),
+    // new QuestaoModel(209, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
+    //     RespostaModel.errada('Ás'),
+    //     RespostaModel.errada('Nove'),
+    //     RespostaModel.errada('Rei'),
+    //     RespostaModel.certa('Valete'),
+    // ]),
+    // new QuestaoModel(210, 'O adjetivo "venoso" está relacionado a:', [
+    //     RespostaModel.errada('Vela'),
+    //     RespostaModel.errada('Vento'),
+    //     RespostaModel.errada('Vênia'),
+    //     RespostaModel.certa('Veia'),
+    // ]),
+    // new QuestaoModel(211, 'Que nome se dá à purificação por meio da água?', [
+    //     RespostaModel.errada('Abrupção'),
+    //     RespostaModel.errada('Abolição'),
+    //     RespostaModel.errada('Abnegação'),
+    //     RespostaModel.certa('Ablução'),
+    // ]),
+    // new QuestaoModel(212, 'Qual montanha se localiza entre a fronteira do Tibet com o Nepal?', [
+    //     RespostaModel.errada('Monte Branco'),
+    //     RespostaModel.errada('Monte Fuji'),
+    //     RespostaModel.errada('Monte Carlo'),
+    //     RespostaModel.certa('Monte Everest'),
+    // ]),
+    // new QuestaoModel(213, 'Em que parte do corpo se encontra a epiglote?', [
+    //     RespostaModel.errada('Estômago'),
+    //     RespostaModel.errada('Pâncreas'),
+    //     RespostaModel.errada('Rim'),
+    //     RespostaModel.certa('Pescoço'),
+    // ]),
+    // new QuestaoModel(214, 'A compensação por perda é chamada de...', [
+    //     RespostaModel.errada('Déficit'),
+    //     RespostaModel.errada('Indexação'),
+    //     RespostaModel.errada('Indébito'),
+    //     RespostaModel.certa('Indenização'),
+    // ]),
+    // new QuestaoModel(215, 'Que personagem do folclore brasileiro tem uma perna só?', [
+    //     RespostaModel.errada('Cuca'),
+    //     RespostaModel.errada('Curupira'),
+    //     RespostaModel.errada('Boitatá'),
+    //     RespostaModel.certa('Saci-pererê'),
+    // ]),
+    // new QuestaoModel(216, 'Quem é o "patrono" do Exército Brasileiro?', [
+    //     RespostaModel.errada('Marechal Deodoro'),
+    //     RespostaModel.errada('Barão de Mauá'),
+    //     RespostaModel.errada('Marquês de Pombal'),
+    //     RespostaModel.certa('Duque de Caxias'),
+    // ]),
 ]
 
 export default questoes

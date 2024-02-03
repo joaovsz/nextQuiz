@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter()
 
   const [idsDasQuestoes, setIdsDasQuestoes] = useState<number[]>([])
-  const [questao, setQuestao] = useState<QuestaoModel>()
+  const [questao, setQuestao] = useState<QuestaoModel>({}as QuestaoModel)
   const [respostasCertas, setRespostasCertas] = useState<number>(0)
 
   async function carregarIdsDasQuestoes() {
