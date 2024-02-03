@@ -50,12 +50,12 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Ernesto Geisel'),
         RespostaModel.certa('João Figueiredo'),
     ]),
-    // new QuestaoModel(209, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
-    //     RespostaModel.errada('Ás'),
-    //     RespostaModel.errada('Nove'),
-    //     RespostaModel.errada('Rei'),
-    //     RespostaModel.certa('Valete'),
-    // ]),
+    new QuestaoModel(209, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
+        RespostaModel.errada('Ás'),
+        RespostaModel.errada('Nove'),
+        RespostaModel.errada('Rei'),
+        RespostaModel.certa('Valete'),
+    ]),
     // new QuestaoModel(210, 'O adjetivo "venoso" está relacionado a:', [
     //     RespostaModel.errada('Vela'),
     //     RespostaModel.errada('Vento'),

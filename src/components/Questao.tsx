@@ -23,20 +23,23 @@ interface QuestaoProps {
 
 export default function Questao(props: QuestaoProps) {
     const questao = props.valor
-
+   
     function renderizarRespostas() {
-        return questao.respostas.map((resposta, i) => {
-            return (
-                <Resposta
-                    key={`${questao.id}-${i}`}
-                    valor={resposta}
-                    indice={i}
-                    letra={letras[i].valor}
-                    corFundoLetra={letras[i].cor}
-                    respostaFornecida={props.respostaFornecida}
-                />
-            )
-        })
+        if(questao.respostas){
+            return questao.respostas.map((resposta, i) => {
+                return (
+                    <Resposta
+                        key={`${questao.id}-${i}`}
+                        valor={resposta}
+                        indice={i}
+                        letra={letras[i].valor}
+                        corFundoLetra={letras[i].cor}
+                        respostaFornecida={props.respostaFornecida}
+                    />
+                )
+            })
+        }
+        
     }
 
     return (
